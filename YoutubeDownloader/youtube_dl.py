@@ -62,7 +62,7 @@ def main():
     if not output_path:
         clear()
         print(BANNER())
-        print(f"{Fore.YELLOW}/!\ No output directory selected!\n{Fore.RESET}Downloaded media will go in default Download folder\n")
+        print(f"{Fore.YELLOW}[!] No output directory selected!\n{Fore.RESET}Downloaded media will go in default Download folder\n")
         pass
     elif output_path:
         output_path = output_path.replace("\\", "/").replace('''"''', "")
@@ -118,6 +118,7 @@ def main():
             print(f"An error occurred: {e}\n")
 
 if __name__ == "__main__":
+    script_update.main()
     clear()
     print(BANNER())
     main()
