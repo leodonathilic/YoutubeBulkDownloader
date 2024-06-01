@@ -15,6 +15,7 @@ The script will install requirements for you!
 
 # Usage
 Congrats! You've done the hardest part.
+
 ![image](https://github.com/leodonathilic/YoutubeBulkDownloader/assets/129596282/45dd42dc-9900-4fc4-b4c3-c371cd384c1c)
 
 Now input (copy pasting works) a directory where you want your media to be downloaded
